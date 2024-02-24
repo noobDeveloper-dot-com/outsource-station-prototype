@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OutSource Station | Your partner for Success</title>
+    <style>
+
+
+     .loadingCover{
+      opacity: 0;
+      transition: opacity 700ms;
+      pointer-events: none;
+     }
+
+     .loadingCover.active{
+      position: fixed;
+      z-index: 1000;
+      background-color: #fff;
+      inset: 0;
+      opacity: 1;
+
+     }
+
+    </style>
+    <script>
+      (function(d,t) {
+        var BASE_URL="https://chat.outsourcestation.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'zePL4EqoEydaQajAgVjJCcWr',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
+
+
+
+
+    <script type="module" crossorigin src="/outsource-station-prototype/assets/index-CjGy6zI1.js"></script>
+    <link rel="stylesheet" crossorigin href="/outsource-station-prototype/assets/index-CxlRNEU9.css">
+  </head>
+  <body>
+    <div class="loadingCover active"></div>
+    <header >
+      <nav class="almost-full-width">
+        <a  id="main-logo-link" href="/"
+          ><div class="mainLogo">
+            <img src="\Main Logo.svg" alt="OutSource Station" /></div
+        ></a>
+      </nav>
+    </header>
+    <main>
+      <div id="root" ></div>
+
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-contents almost-full-width flexB">
+        <div class="footer_Logo ">
+          <img src="\Main Logo.svg" alt="main logo" />
+          <p class="slogan">Your partner for
+            Success</p>
+        </div>
+        <div class="links flexB">
+          <div class="product">
+            <p>Product</p>
+            <div class="product_links">
+              <a href="#">Overview</a><br /><a href="#">Services</a><br /><a
+                href="#"
+                >Tutorials</a
+              ><br /><a href="#">Pricing</a>
+            </div>
+          </div>
+          <div class="company">
+            <p>Company</p>
+            <div class="product_links">
+              <a href="#">About Us</a><br /><a href="#">Careers</a><br /><a
+                href="#"
+                >News</a
+              ><br /><a href="#">Contact</a>
+            </div>
+          </div>
+          <div class="resource">
+            <p>Resource</p>
+            <div class="product_links">
+              <a href="#">Blog</a><br /><a href="#">Newsletter </a><br /><a
+                href="#"
+                >Events</a
+              ><br /><a href="#">Support</a>
+            </div>
+          </div>
+          <div class="social">
+            <p>Social</p>
+            <div class="product_links">
+              <a href="#">Twitter</a><br /><a href="#">LinkedIn</a><br /><a
+                href="#"
+                >GitHub</a
+              ><br /><a href="#">Facebook</a>
+            </div>
+          </div>
+          <div class="egal">
+            <p>Legal</p>
+            <div class="product_links">
+              <a href="#">Terms</a><br /><a href="#">Privacy</a><br /><a
+                href="#"
+                >Cookies</a
+              ><br /><a href="#">License</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="copyrights_and_socialLinks flexB almost-full-width">
+        <div class="copyRights flexB">
+          <img src="\Copyright.svg" alt="copyright" />
+          <p>2024 OutSource Station. All rights reserved.</p>
+        </div>
+
+        <div class="socialLinks flexB">
+          <a href="/"><img src="\Twitter.svg" alt="twitter"></a><a href="/"><img src="\linkedIn.svg" alt="linkedIn"><a href="/"><img src="\github.svg" alt="github"></a>
+          <a href="/"><img src="\facebook.svg" alt="facebook"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
